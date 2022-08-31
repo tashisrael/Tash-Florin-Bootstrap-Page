@@ -17,13 +17,13 @@
     <!-- Links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="#portfolio">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
     </div>
@@ -166,7 +166,7 @@
             <div class="accordion-body">
               <ul class="list-group list-group-horizontal list-unstyled pt-2">
                 <li class="d-flex justify-content-center flex-column p-3 me-3 rounded-3 bg-light">
-                  <img src="img/Js.png" alt="JavaScript">
+                  <img src="img/JS.png" alt="JavaScript">
                   <p class="text-center" style="width: 70px;">JavaScript</p>
                 </li>
                 <li class="d-flex justify-content-center flex-column me-3 p-3 rounded-3 bg-light">
@@ -208,5 +208,26 @@
       </div>
     </div>
   </section>
+    <section class="container-xl" style="width: 570px;">
+      <h2 class="fs-1 fw-bolder text-center">Contact me</h2>
+        <p class="fs-5 pt-2 text-center">
+            If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
+        </p>
+      <div class="mb-3">
+        <label for="name" class="form-label" hidden>name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your neme here">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label" hidden>Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="email@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="text-area" class="form-label" hidden>Example textarea</label>
+        <textarea class="form-control" id="text-area" rows="3"></textarea>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-primary">Get in touch</button>
+      </div>
+    </section>
 </body>
 </html>
