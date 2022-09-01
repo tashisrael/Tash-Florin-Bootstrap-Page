@@ -8,6 +8,7 @@
 
       <!-- JavaScript Bundle with Popper -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="styles.css">
 	<title>Portfolio</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
     </ul>
   </section>
   <section class="d-flex flex-wrap justify-content-center">
-    <div class="card mt-5 mb-5" style="width: 70rem;">
+    <div id="card1" class="card mt-5 mb-5">
       <div class="row no-gutters">
         <img src="img/Snap1.png" class="col-md-6 p-5" alt="...">
         <div class="card-body col-md-6 pt-5">
@@ -64,7 +65,7 @@
       </div>
     </div>
 
-    <div class="card mt-5 mb-5" style="width: 70rem;">
+    <div id="card2" class="card mt-5 mb-5">
       <div class="row no-gutters">
         <div class="card-body col-md-6 pt-5 ps-5">
           <h2 class="card-title fs-1 fw-bolder">Multi Post Stories</h2>
@@ -88,7 +89,7 @@
       </div>
     </div>
 
-    <div class="card mt-5 mb-5" style="width: 70rem;">
+    <div id="card3" class="card mt-5 mb-5">
       <div class="row no-gutters">
         <img src="img/Snap3.png" class="col-md-6 p-5" alt="...">
         <div class="card-body col-md-6 pt-5">
@@ -112,7 +113,7 @@
       </div>
     </div>
 
-    <div class="card mt-5 mb-5" style="width: 70rem;">
+    <div id="card4" class="card mt-5 mb-5">
       <div class="row no-gutters">
         <div class="card-body col-md-6 pt-5 ps-5">
           <h2 class="card-title fs-1 fw-bolder">Uber navigation</h2>
@@ -137,7 +138,7 @@
     </div>
   </section>
   <section class="d-flex flex-wrap justify-content-center">
-    <div class="card mt-5 mb-5" style="width: 70rem;">
+    <div id="card5" class="card mt-5 mb-5">
       <div class="row no-gutters">
         <div class="col-md-6 p-5" >
           <h1 class="fs-1 fw-bolder">About <br> Myself</h1>
@@ -167,15 +168,15 @@
               <ul class="list-group list-group-horizontal list-unstyled pt-2">
                 <li class="d-flex justify-content-center flex-column p-3 me-3 rounded-3 bg-light">
                   <img src="img/JS.png" alt="JavaScript">
-                  <p class="text-center" style="width: 70px;">JavaScript</p>
+                  <p id="p" class="text-center">JavaScript</p>
                 </li>
                 <li class="d-flex justify-content-center flex-column me-3 p-3 rounded-3 bg-light">
                   <img src="img/HTML.png" alt="JavaScript">
-                  <p class="text-center" style="width: 70px;">HTML</p>
+                  <p id="p1" class="text-center">HTML</p>
                 </li>
                 <li class="d-flex align-content-center flex-column p-3 rounded-3 bg-light">
                   <img src="img/CSS.png" alt="JavaScript">
-                  <p class="text-center" style="width: 70px;">CSS</p>
+                  <p id="p2" class="text-center">CSS</p>
                 </li>
               </ul>
             </div>
@@ -207,8 +208,9 @@
         </div>
       </div>
     </div>
+  </div>
   </section>
-    <section class="container-xl" style="width: 570px;">
+    <section id="contact1" class="container-xl">
       <h2 class="fs-1 fw-bolder text-center">Contact me</h2>
         <p class="fs-5 pt-2 text-center">
             If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
